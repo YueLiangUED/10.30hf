@@ -1,0 +1,59 @@
+section{
+    background-color: #f15b3b;
+}
+section>div{
+    box-sizing: border-box;
+    padding: .08rem .38rem .5rem;
+    width: 7.5rem;
+    height: 15.5rem;
+    background: url("../images/subPageBg.png") center no-repeat;
+    background-size: cover;
+}
+header{
+    margin: 0 auto .1rem;
+    width: 2.54rem;
+    height: .97rem;
+    background: url("../images/subPageTitle.png") center no-repeat;
+    background-size: cover;
+}
+section>div p{
+    font-size: .24rem;
+    text-indent: 2em;
+    color: #ffffff;
+}
+section>div .title{
+    margin: .1rem 0;
+}
+section>div .title.sec{
+    box-sizing: border-box;
+    padding-left: .35rem;
+}
+section>div .title.sec span:nth-child(1){
+    margin-left: -1.5em;
+}
+section>div .title span{
+    font-size: .24rem;
+    color: #ffffff;
+}
+section>div .title span:nth-child(1){
+    display: inline-block;
+    margin-right: .1rem;
+    width: .24rem;
+    height: .24rem;
+    text-align: center;
+    line-height: .25rem;
+    border-radius: 50%;
+    color: #df4b2c;
+    background-color: #ffe63c;
+}
+section>div .title p{
+    margin-left: .55rem;
+    text-indent: -2.5em;
+}
+section>div .tableBox{
+    margin: .2rem 0;
+    width: 6.74rem;
+    height: 8.55rem;
+    background: url("../images/subTable.png") center no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,91 @@
+header{
+    position: relative;
+    height: 10.79rem;
+    background-color: #f45e3e;
+}
+header>div:nth-child(1){
+    box-sizing: border-box;
+    margin-top: -.2rem;
+    padding: .6rem .4rem 0 0;
+    width: 7.5rem;
+    height: 8.49rem;
+    background: url("../images/headerBg.png") center no-repeat;
+    background-size: cover;
+}
+header>div:nth-child(1) div{
+    float: right;
+    text-align: center;
+}
+header>div:nth-child(1) div span{
+    display: inline-block;
+    width: .38rem;
+    height: .44rem;
+    background: url("../images/smallbook.png") center no-repeat;
+    background-size: cover;
+}
+header>div:nth-child(1) div p{
+    font-size: .22rem;
+    color: #ffffff;
+}
+header>div:nth-child(2){
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0rem;
+    margin: auto;
+    width: 6.65rem;
+    height: 2.61rem;
+    background: url("../images/tjyl.png") center no-repeat;
+    background-size: cover;
+    z-index: 200;
+}
+footer{
+    overflow: hidden;
+    position: relative;
+    margin-top: -1.19rem;
+    width: 7.5rem;
+    height: 2.7rem;
+}
+footer>div{
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 50%;
+    margin-left: -5.4rem;
+    padding-top: 1.45rem;
+    width: 10.8rem;
+    height: 4.6rem;
+    border-radius: 50%;
+    background-color: #fed452;
+    z-index: 100;
+}
+footer>span{
+    position: absolute;
+    width: .59rem;
+    z-index: 150;
+}
+footer>span:nth-child(1){
+    top: 1.37rem;
+    left: .7rem;
+    height: .47rem;
+    background: url("../images/other_1.png") center no-repeat;
+    background-size: cover;
+}
+footer>span:nth-child(2){
+    top: 1.9rem;
+    right: 1.1rem;
+    height: .6rem;
+    background: url("../images/other_2.png") center no-repeat;
+    background-size: cover;
+}
+footer>div div{
+    width: 3.57rem;
+    height: .95rem;
+    text-align: center;
+}
+footer>div div img{
+    width: 100%;
+    height: 100%;
+}
