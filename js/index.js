@@ -13,7 +13,7 @@ $(function () {
     });
     //马上推荐按钮动画
     window.setInterval(function () {
-        var $img = $('#btn').children('img');
+        var $img = $('#btn_').children('img');
         console.log($img);
         $img.animate({
             width: '90%',
@@ -26,7 +26,40 @@ $(function () {
         });
     },800);
     //马上推荐按钮
-    $('#btn').on('click',function () {
+    $('#btn_').on('click',function () {
 
+    });
+    var countdown=60;
+    function sendemail(){
+        var obj = $("#btn");
+        settime(obj);
+    }
+    function settime(obj) { //发送验证码倒计时
+        if (countdown == 0) {
+            obj.on('click',function () {
+                sendemail();
+            });
+            obj.val("获取验证码");
+            obj.css({
+                'color': '#f35d3d',
+                'background': '#fed452'
+            });
+            countdown = 60;
+            return;
+        } else {
+            obj.css({
+                'color': '#fff',
+                'background':'#f45e3e'
+            })
+            obj.unbind('click');
+            obj.val("重新发送(" + countdown + ")");
+            countdown--;
+        }
+        setTimeout(function() {
+                settime(obj) }
+            ,1000)
+    }
+    $('#btn').on('click',function () {
+        sendemail();
     });
 });

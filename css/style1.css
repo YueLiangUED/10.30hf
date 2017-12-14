@@ -1,11 +1,11 @@
 section{
+    padding-bottom: .5rem;
     background-color: #f15b3b;
 }
 section>div{
     box-sizing: border-box;
-    padding: .08rem .38rem .5rem;
+    padding: .08rem .38rem .2rem;
     width: 7.5rem;
-    height: 15.5rem;
     background: url("../images/subPageBg.png") center no-repeat;
     background-size: cover;
 }
@@ -51,9 +51,21 @@ section>div .title p{
     text-indent: -2.5em;
 }
 section>div .tableBox{
-    margin: .2rem 0;
+    margin: .2rem 0 .1rem;
     width: 6.74rem;
-    height: 8.55rem;
+    height: 9.48rem;
     background: url("../images/subTable.png") center no-repeat;
     background-size: cover;
+}
+section a{
+    margin: 0 auto;
+    display: block;
+    width: 2.46rem;
+    height: .66rem;
+    background: url("../images/addBtn.png") center no-repeat;
+    background-size: cover;
+}
+.addDesc{
+    font-size: .22rem;
+    color: #ffffff;
 }
