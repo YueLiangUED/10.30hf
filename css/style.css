@@ -54,7 +54,7 @@ footer>div{
     margin-left: -6.4rem;
     padding-top: 1.45rem;
     width: 12.8rem;
-    height: 4.5rem;
+    height: 4.2rem;
     border-radius: 50%;
     background-color: #fed452;
     z-index: 100;
@@ -117,6 +117,7 @@ footer div:nth-child(3)>input{
     margin: auto;
     width: 4.8rem;
     height: .8rem;
+    line-height: .8rem;
 }
 footer div>div:nth-child(2){
     position: absolute;
